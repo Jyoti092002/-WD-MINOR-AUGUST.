@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title> Historical Places India </title>
+<style>
+  body{
+      background-image: linear-gradient(orange,white,green);
+  }
+    .grid-container{
+        display: grid;
+            padding: 20px;
+            grid-template-columns:auto auto auto;
+            background-image: linear-gradient(orange,white,green);
+            background-size:cover ;
+            border-width: 20px;
+            
+    }
+    .grid-item {
+  background-color: linear-gradient(orange,white,green);
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+  color: darkblue;
+  text-decoration: underline;
+  text-shadow: 20px;
+  text-shadow:  2px 2px 5px white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    /* image css */
+    img{
+      box-shadow: 0px 5px 6px 0px rgb(0, 0,139);
+       border-radius: 40px;
+      animation-name: border;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes border {
+      10%{border-radius:30px ;}
+      90%{border-radius:80px ;}
+    }
+    /* header css */
+    .header {
+  padding: 0px;
+  text-align: center;
+  font-family: Georgia;
+  color: darkblue;
+  background-image:radial-gradient(orange,white,green);
+  border-radius: 50px;
+  font-style:unset;
+  text-shadow:  2px 2px 3px blue;
+  animation-name: anim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+    }
+    @keyframes anim {
+      10% {
+        background-image: radial-gradient(orange, white, green);
+      }
+
+      70% {
+        background-image: radial-gradient(green, white, orange);
+      }
+    }
+    /* footer css */
+    .footer {
+  padding: 0px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:blue;
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToOXs-NnkQum_fr0Uf0JdMUdUoMHI4B2oV6A&usqp=CAU");
+  border-radius: 50px; 
+    }
+    
+  h6{
+    color: darkblue;
+  }
+div{
+  color: white;
+}
+</style>
+</head>
+<body>
+     <!-- HEADER -->
+    <div class="header"><h1>Historical Places In India <i class="bi bi-flag-fill" ></i></h1></i></div>
+     <!-- IMAGES -->
+    <div class="grid-container">
+  <div class="grid-item"> <a href="https://en.wikipedia.org/wiki/Red_Fort" target="_blank"><img src="https://static.toiimg.com/photo/65666850.cms" width="250px" height="150px"  ><br><b>Red Fort</b></div></a>
+  <div class="grid-item"> <a href="https://en.wikipedia.org/wiki/Taj_Mahal" target="_blank"><img src="https://assets.traveltriangle.com/blog/wp-content/uploads/2017/07/Agra1.jpg" width="250px" height="150px"><br><b>Taj Mahal</b></div></a>
+  <div class="grid-item"> <a href="https://en.wikipedia.org/wiki/Lotus_Temple" target="_blank"><img src="http://2.bp.blogspot.com/-JYQ8x3mIAq4/UdRNXZb3rtI/AAAAAAAAATs/VpGaowkM4cw/s1600/Lotus-Temple-front+view.jpg" width="250px" height="150px"><br><b>Lotus Temple</b></div></a>
+  <div class="grid-item"><a href="https://en.wikipedia.org/wiki/Qutb_Minar" target="_blank"><img src="https://www.holidify.com/images/attr_square/1727.jpg" width="250px" height="150px"><br><b>Qutub Minar</b></div></a>
+  <div class="grid-item"><a href="https://en.wikipedia.org/wiki/Golden_Temple" target="_blank"><img src="https://assets.traveltriangle.com/blog/wp-content/uploads/2019/02/Golden-Temple.jpg" width="250px" height="150px"><br><b>Golden Temple</b></div></a>
+  <div class="grid-item"><a href="https://en.wikipedia.org/wiki/Gateway_of_India" target="_blank"><img src="https://static.trip101.com/paragraph_media/pictures/001/814/237/large/travel-4813658_1280.jpg?1582537711" width="250px" height="150px"><br><b>Gateway of India</b></div></a>
+  <div class="grid-item"><a href="https://en.wikipedia.org/wiki/Jama_Masjid,_Delhi" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Jama_Mazjid%2C_delhi_by_Shail_kannur_%281%29.jpg/1280px-Jama_Mazjid%2C_delhi_by_Shail_kannur_%281%29.jpg" width="250px" height="150px"><br><b>Jama Masjid</b></div></a>
+  <div class="grid-item"><a href="https://en.wikipedia.org/wiki/Jantar_Mantar" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Jantar_Mantar_Delhi_27-05-2005.jpg" width="250px" height="150px"><br><b>Jantar Mantar</b></div></a>
+  <div class="grid-item"> <a href="https://en.wikipedia.org/wiki/Hawa_Mahal" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Hawa_Mahal_east_facade_%2814-07-2022%29.jpg/1280px-Hawa_Mahal_east_facade_%2814-07-2022%29.jpg" width="250px" height="150px"  ><br><b>Hawa Mahal</b></div></a>
+</div>
+  <!-- AUDIO -->
+ <div align="center"><audio src="https://ia800304.us.archive.org/15/items/jana-gana-mana/jana_gana_mana.mp3" controls></audio></div>
+  <!-- FOOTER -->
+  <div class="footer"><h3><b>Designed And Developed by Jyoti Valecha</b> </h3></div>
+
+
+  
+</body>
+</html>
